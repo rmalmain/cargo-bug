@@ -1,0 +1,11 @@
+[package]
+name = "cargo-issue"
+version = "0.1.0"
+edition = "2021"
+
+[features]
+feature1 = ["my-dep/feature1"]
+feature2 = ["my-dep/feature2"]
+
+[dependencies]
+my-dep = { path = "my-dep" }
